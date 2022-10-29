@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section>
+        <div class="container w-75 py-5 text-center ">
+            <div class="row py-5 ms-auto ">
+                <h3 class="text-white py-5">ContactUs...</h3>
+                <div class="col-md-6 py-5 conts ">
+                    <input id="userName"  placeholder="Enter Your Name" class="form-control w-75 mb-2" type="text">
+                    <div class="alert mt-1 alert-danger d-none" id="nameAlert" role="alert">
+                        Special Characters and Numbers not allowed
+                    </div>  
+
+                    <input id="userPhone"  placeholder="Enter  Phone" class="form-control w-75 mb-2" type="text">
+                    <div class="alert mt-1 alert-danger  d-none" id="phoneAlert" role="alert">
+                        Enter valid Phone Number
+                    </div>
+                    <input id="userPassword"  placeholder="Enter Password" class="form-control w-75 mb-2" type="password">
+                    <div class="alert mt-1 alert-danger  d-none" id="passwordAlert" role="alert">
+                        Enter valid password *Minimum eight characters, at least one letter and one number:*
+                    </div>
+                </div>
+                <div  class="col-md-6 py-5 conts ">
+                    <input id="userEmail"  placeholder="Enter  Email" class="form-control w-75 mb-2" type="text">
+                    <div class="alert mt-1 alert-danger d-none" id="emailAlert" role="alert">
+                        Enter valid email. 
+                    </div>
+                   
+                    <input id="userAge"  placeholder="Enter  age"  class="form-control w-75 mb-2" type="text">
+                    <div class="alert mt-1 alert-danger  d-none" id="ageAlert" role="alert">
+                        Enter valid Age
+                    </div>
+
+                    <input id="userRePassword"  placeholder="Enter  RePassword"  class="form-control w-75 mb-2" type="password">
+                    <div class="alert mt-1 alert-danger  d-none" id="rePasswordAlert" role="alert">
+                        Password doesn't match
+
+                </div>
+            </div>
+        </div>   
+        <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+
+     </section>
+
+     <section>
+        <div class="sideBar">
+
+            <div class="sideBar-logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="sideBar-menu">
+                <i class="fa fa-align-justify"></i>
+            </div>
+    
+            <div class="sideBar-icon">
+                <div>
+                    <span>
+                        <i class="fas fa-globe"></i>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <i class="fas fa-share-alt"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="sideBar-nav-menu sideBar-open-menu py-5">
+                <div class="sideBar-item py-5">
+                    <ul>
+                        <li  class=" py-5;"><a href="Search.html">Search</a></li>
+                        <li  class=" py-5;"><a href="Categories.html">Categories</a></li>
+                        <li  class=" py-5;"><a href="Area.html">Area</a></li>
+                        <li  class=" py-5;" ><a href="Ingredients.html" >Ingredients</a></li>
+                        <li  class=" py-5;" ><a href="Contact.html" >Contact Us</a></li>
+
+    
+    
+                    </ul>
+                </div>
+                <div class="sideBar-social ">
+                    <a><i class="fab fa-facebook-f"></i></a>
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fas fa-globe"></i></a>
+                    <div class="pt-3">
+                        <span>Copyright Â© 2019 All Rights Reserved.</span>
+                    </div>
+    
+                </div>
+            </div>
+    
+    
+        </div>
+    </section>
+    
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

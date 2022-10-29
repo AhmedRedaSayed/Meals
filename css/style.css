@@ -1,0 +1,182 @@
+body 
+{
+    background-color: black;
+    
+}
+
+.layer
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+	transition: all 1s;
+
+}
+.first
+{
+    cursor: pointer; 
+
+}
+
+.first:hover .layer
+{
+
+    top: 0;
+}
+
+.sideBar
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 100%;
+	z-index: 9999999999;
+	background-color: #f8f6f6;
+	text-align: center;
+	transition: all 0.5s;
+    
+}
+.sideBar-logo 
+{
+	padding:25px 0;
+}
+
+.sideBar-logo img 
+{
+	height: 48px;
+}
+
+.sideBar-menu
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.sideBar-menu i 
+{
+	font-size: 25px;
+    cursor: pointer;
+}
+
+.sideBar-icon
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 999999999999;
+    cursor: pointer;
+}
+
+.sideBar-nav-menu
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 100vh;
+	z-index: 99999999;
+	background-color: #000;
+    color:white;
+	transform: translateX(-100%);
+	transition: all 0.5;
+
+
+}
+.sideBar-nav-menu  ul 
+{
+	padding-left: 30px;
+
+	height: 300px;
+	overflow: hidden;
+
+}
+.sideBar-nav-menu li 
+{
+    padding-top: 30px;
+    list-style-type: none;
+    
+}
+.sideBar-nav-menu ul li a 
+{
+	color: #f9f6f6 ;
+	font-weight: 500;
+	font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sideBar-social
+{
+	position: absolute;
+	bottom: 50px;
+	left: 20px;
+}
+.sideBar-social  a 
+{
+	color: #f9f6f6;
+	padding-left: 10px;
+	font-size:14px;
+    cursor: pointer;
+    
+
+}
+
+.sideBar-social  span 
+{
+	color: #999;
+}
+
+#searchInput 
+{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #fff;   
+}
+
+#searchLetter
+{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #fff;   
+
+
+}
+
+.content
+{
+    cursor: pointer;
+}
+
+
+.area 
+{
+    color:#9e403a;
+    cursor: pointer;
+}
+
+
+
+.content i 
+{
+    color: green;
+   
+}
+
+.conts input
+{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #fff;   
+
+}
+
+.holder a
+{
+    text-decoration: none;
+}
